@@ -12,40 +12,40 @@ const perguntas = [
 },
 {
     pergunta: "Quantos planetas existem no sistema solar?",
-    opcoes: ["7", "8", "9", "10"],
-    correta: 1
+    opcoes: ["8", "7", "9", "10"],
+    correta: 0
 },
 {
     pergunta: "Qual o único mámifero que não pula?",
-    opcoes: ["Cavalo", "Elefante", "Girafa", "Cabra"],
-    correta: 1
+    opcoes: ["Cavalo", "Cabra", "Girafa", "Elefante"],
+    correta: 3
 },
     {pergunta: "Qual pais abriga a maior comunidade japonesa fora do Japão?",
     opcoes: ["China", "Brasil", "Estados unidos", "Coreia do Sul"],
     correta: 1},
     {pergunta: "Qual é o rio mais longo do mundo?",
-    opcoes: ["Rio Amazonas", "Rio Nilo", "Rio Mississippi", "Rio São Francisco"],
-    correta: 1
+    opcoes: ["Rio Nilo", "Rio Amazonas", "Rio Mississippi", "Rio São Francisco"],
+    correta: 0
     },
     {pergunta: "Qual o bioma exclusivamente brasileiro?",
-    opcoes: ["Amazônia", "Caatinga", "Pantanal", "Cerrado"],
-    correta: 1
+    opcoes: ["Amazônia", "Pantanal", "Caatinga", "Cerrado"],
+    correta: 2
     },
     {pergunta: "Quais os únicos países da américa do sul que não fazem fronteira com o Brasil?",
     opcoes: ["Colômbia e Uruguai", "Chile e Equador", "Chile e Guiana", "Argentina e Bolívia"],
     correta: 1
     },
     {pergunta: "Qual estado brasileiro já foi capital de Portugal?",
-    opcoes: ["São Paulo", "Rio de Janbeiro", "Salvador", "Minas Gerais"],
-    correta: 1
+    opcoes: ["São Paulo", "Minas Gerais", "Salvador", "Rio de Janeiro"],
+    correta: 3
     },
     {pergunta: "Quantos biomas existem no Brasil?",
-    opcoes: ["7", "6", "5", "8"],
-    correta: 1
+    opcoes: ["6", "7", "5", "8"],
+    correta: 0
     },
     {pergunta: "Qual a cidade mais populosa da américa do sul?",
-    opcoes: ["Buenos Aires", "São Paulo", "Lima", "Rio de Janeiro"],
-    correta: 1
+    opcoes: ["São Paulo", "Buenos Aires", "Lima", "Rio de Janeiro"],
+    correta: 0
 
 
 
@@ -128,5 +128,3 @@ function atualizarContador(){
 
 }
 carregarPergunta();
-
-
