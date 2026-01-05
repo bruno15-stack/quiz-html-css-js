@@ -20,7 +20,7 @@ const perguntas = [
     opcoes: ["Cavalo", "Cabra", "Girafa", "Elefante"],
     correta: 3
 },
-    {pergunta: "Qual pais abriga a maior comunidade japonesa fora do Japão?",
+    {pergunta: "Qual país abriga a maior comunidade japonesa fora do Japão?",
     opcoes: ["China", "Brasil", "Estados unidos", "Coreia do Sul"],
     correta: 1},
     {pergunta: "Qual é o rio mais longo do mundo?",
@@ -128,3 +128,4 @@ function atualizarContador(){
 
 }
 carregarPergunta();
+
