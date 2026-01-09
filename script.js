@@ -95,10 +95,21 @@ botoes.forEach((botao, index) =>{
 });
 function mostrarResultado(){
     barra.style.width = "100%";
-    perguntaEl.textContent = `Você acertou ${pontuacao} de ${perguntas.length} perguntas`;
+    let mensagem = "";
+
+    if (pontuacao <= 5) {
+        mensagem = "Alimente seu conhecimento! ";
+    } else if (pontuacao > 5 && pontuacao <= 9) {
+        mensagem = "Muito bem! Você está no caminho certo. ";
+    } else if (pontuacao === perguntas.length) {
+        mensagem = "Parabéns por acertar todas! Você já foi aluno de Valter Moisés?😄 ";
+    }
+     perguntaEl.textContent = `Você acertou ${pontuacao} de ${perguntas.length} perguntas.\n${mensagem}`;
+
     botoes.forEach(botao => {
         botao.style.display = "none";
     });
+
     botaoReiniciar.style.display = "block";
     contador.textContent = "Quiz finalizado";
 }
@@ -128,4 +139,5 @@ function atualizarContador(){
 
 }
 carregarPergunta();
+
 
